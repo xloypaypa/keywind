@@ -1,7 +1,6 @@
 <#import "./icon/provider.ftl" as iconProvider>
 
 <#macro kw>
-  <div class="pt-4 separate text-secondary-600 text-sm">${msg("identity-provider-login-label")}</div>
   <div class="gap-4 grid grid-cols-3">
     <#list social.providers as provider>
       <#switch provider.alias>
